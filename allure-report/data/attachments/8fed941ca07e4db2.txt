@@ -1,0 +1,10 @@
+[32mINFO    [0m page_object.BasePage:BasePage.py:66 Opening url: https://spb.ticketland.ru/login
+[32mINFO    [0m page_object.BasePage:BasePage.py:42 Check if element ('name', 'LoginForm[contact]') is present
+[32mINFO    [0m page_object.BasePage:BasePage.py:35 Input @ya.ru in input <selenium.webdriver.remote.webelement.WebElement (session="c047142ec89e24ecbfffb8eefd773edb", element="c0a9a0ee-eb26-4d0f-be4f-ad0b821e004a")>
+[32mINFO    [0m page_object.BasePage:BasePage.py:30 Clicking element: <selenium.webdriver.remote.webelement.WebElement (session="c047142ec89e24ecbfffb8eefd773edb", element="c0a9a0ee-eb26-4d0f-be4f-ad0b821e004a")>
+[32mINFO    [0m page_object.BasePage:BasePage.py:42 Check if element ('name', 'LoginForm[password]') is present
+[32mINFO    [0m page_object.BasePage:BasePage.py:35 Input !@$ in input <selenium.webdriver.remote.webelement.WebElement (session="c047142ec89e24ecbfffb8eefd773edb", element="9ad02e01-f284-4936-b928-ef6079f11ab3")>
+[32mINFO    [0m page_object.BasePage:BasePage.py:30 Clicking element: <selenium.webdriver.remote.webelement.WebElement (session="c047142ec89e24ecbfffb8eefd773edb", element="9ad02e01-f284-4936-b928-ef6079f11ab3")>
+[32mINFO    [0m page_object.BasePage:BasePage.py:42 Check if element ('css selector', '.registration-button') is present
+[32mINFO    [0m page_object.BasePage:BasePage.py:30 Clicking element: <selenium.webdriver.remote.webelement.WebElement (session="c047142ec89e24ecbfffb8eefd773edb", element="81fdddcf-e692-4ca2-8e6c-75593f1a01e5")>
+[32mINFO    [0m page_object.BasePage:BasePage.py:42 Check if element ('css selector', '.login-msg') is present

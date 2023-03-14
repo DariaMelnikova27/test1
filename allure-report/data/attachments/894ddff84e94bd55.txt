@@ -1,0 +1,8 @@
+[32mINFO    [0m page_object.BasePage:BasePage.py:66 Opening url: https://spb.ticketland.ru/login
+[32mINFO    [0m page_object.BasePage:BasePage.py:54 Check if element ('name', 'LoginForm[contact]') is find
+[32mINFO    [0m page_object.BasePage:BasePage.py:54 Check if element ('name', 'LoginForm[password]') is find
+[32mINFO    [0m page_object.BasePage:BasePage.py:54 Check if element ('css selector', '.registration-button') is find
+[32mINFO    [0m page_object.BasePage:BasePage.py:54 Check if element ('css selector', '.login-msg') is find
+[32mINFO    [0m page_object.BasePage:BasePage.py:54 Check if element ('css selector', '#searchForm .old-input') is find
+[32mINFO    [0m page_object.BasePage:BasePage.py:54 Check if element ('css selector', '.find_button .btn3') is find
+[32mINFO    [0m page_object.BasePage:BasePage.py:54 Check if element ('xpath', '/html/body/main/div[6]/div/div/div/div/div/div[1]/section[4]/p') is find
