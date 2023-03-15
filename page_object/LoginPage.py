@@ -13,7 +13,7 @@ class LoginPage(BasePage):
     ERROR_MSG = (By.CSS_SELECTOR, ".login-msg")
     SEARCH_INPUT = (By.CSS_SELECTOR, "#searchForm .old-input")
     SEARCH_BUTTON = (By.CSS_SELECTOR, ".find_button .btn3")
-    SEARCH_ERROR_MSG = (By.XPATH, "/html/body/main/div[6]/div/div/div/div/div/div[1]/section[4]/p")
+    SEARCH_ERROR_MSG = (By.XPATH, "/html/body/main/div[5]/div/div/div/div/div/div[1]/section[4]/p")
 
     def check_elements_on_login_page(self):
         """ Метод проверки видимости элементов на странице авторизации """
@@ -57,7 +57,7 @@ class LoginPage(BasePage):
         return self
 
     @property
-    @allure.step("Проверяю наличие cообщения о ненайженных мероприятиях")
+    @allure.step("Проверяю наличие cообщения о ненайденных мероприятиях")
     def unsuccess_search_msg(self):
         msg = self.element(self.SEARCH_ERROR_MSG)
         return msg.text
